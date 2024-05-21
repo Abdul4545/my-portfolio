@@ -133,11 +133,11 @@ body {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .home-about {
         height: 88vh;
-        width: 70%;
+        width: 100%;
     }
 
     .image-container-home {
-        width: 30%;
+        width: 0%;
         background-image: url("../Assets/my-image.png");
         background-position: -140px center;
         background-size: cover;
