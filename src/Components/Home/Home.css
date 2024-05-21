@@ -130,7 +130,7 @@ body {
 
 
 /* Styles for medium devices from 769px to 1024px */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1028px) {
     .home-about {
         height: 88vh;
         width: 100%;
