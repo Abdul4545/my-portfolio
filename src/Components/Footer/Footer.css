@@ -1,0 +1,44 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(108, 105, 105);
+  width: 100%;
+  color: white;
+  flex-direction: column;
+}
+
+.footer p {
+  margin: 0px;
+  font-size: large;
+}
+
+.contact {
+  font-size: large;
+  justify-content: space-around;
+}
+
+.gmail, .whatsapp {
+  width: 25px;
+  margin-left: 20px;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 320px) {
+
+  .footer p {
+    margin: 0px;
+    font-size: small;
+  }
+
+  .contact {
+    font-size: small;
+    justify-content: space-around;
+  }
+
+}
+
+

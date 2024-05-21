@@ -1,0 +1,168 @@
+body {
+    overflow-x: hidden;
+}
+
+.container-fluid-home {
+    width: 100vw;
+    height: 88vh;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+}
+
+.home-about {
+    width: 73%;
+    color: white;
+    background-image: url("../Assets/image-1.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.home-about > h1 {
+    position: absolute;
+    top: 38%;
+    margin-left: 10%;
+    
+}
+
+.home-about > h2 {
+    position: absolute;
+    top: 52%;
+    margin-left: 10%;
+
+}
+
+.home-about > h3 {
+    position: absolute;
+    top: 65%;
+    margin-left: 10%;
+}
+
+.image-container-home {
+    width: 27%;
+    margin: 0px 0px 0px 0px;
+    background-image: url("../Assets/my-image.png");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    background-color: gray;
+    
+}
+
+
+.radio-canada-big-h {
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+
+  }
+
+
+/* Styles for mobile devices up to 400px */
+@media screen and (max-width: 400px) {
+    .home-about {
+        height: 90vh;
+        width: 100%;
+    }
+
+    .image-container-home {
+        display: none;
+    }
+
+    .home-about > h1,
+    .home-about > h2,
+    .home-about > h3 {
+        position: absolute;
+        margin-left: 10%;
+        font-size: x-large;
+    }
+
+    .home-about > h1 {
+        top: 45%;
+    }
+    
+    .home-about > h2 {
+        top: 55%;
+    }
+    
+    .home-about > h3 {
+        top: 65%;
+    }
+}
+
+/* Styles for tablets and small devices from 401px to 768px */
+@media screen and (min-width: 401px) and (max-width: 768px) {
+    .home-about > h1,
+    .home-about > h2,
+    .home-about > h3 {
+        position: absolute;
+        margin-left: 10%;
+        font-size: x-large;
+    }
+
+    .image-container-home {
+        display: none;
+    }
+
+
+    .home-about {
+        width: 100%;
+    }
+    
+
+    .home-about > h1 {
+        top: 43%;
+    }
+    
+    .home-about > h2 {
+        top: 52%;
+    }
+    
+    .home-about > h3 {
+        top: 61%;
+    }
+}
+
+
+/* Styles for medium devices from 769px to 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .home-about {
+        height: 88vh;
+        width: 70%;
+    }
+
+    .image-container-home {
+        width: 30%;
+        background-image: url("../Assets/my-image.png");
+        background-position: -140px center;
+        background-size: cover;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position-y: -50px;
+
+    }
+
+    .home-about > h1,
+    .home-about > h2,
+    .home-about > h3 {
+        position: absolute;
+        margin-left: 10%;
+    }
+
+    .home-about > h1 {
+        top: 40%;
+    }
+    
+    .home-about > h2 {
+        top: 55%;
+    }
+    
+    .home-about > h3 {
+        top: 70%;
+    }
+}

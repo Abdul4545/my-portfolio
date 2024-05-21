@@ -1,0 +1,89 @@
+[
+    {
+        "id":1,
+        "name": "HTML",
+        "image": "Assets/Skills/html-logo.png",
+        "level":"Intermediate"
+    },
+
+    {
+        "id":2,
+        "name": "CSS",
+        "image": "Assets/Skills/css-logo.png",
+        "level":"Intermediate"
+    },
+
+    {
+        "id":3,
+        "name": "Javascript",
+        "image": "Assets/Skills/js-logo.png",
+        "level":"Intermediate"
+    },
+
+
+    {
+        "id":4,
+        "name": "React Js",
+        "image": "Assets/Skills/react-logo.png",
+        "level":"Intermediate"
+    },
+
+    {
+        "id":5,
+        "name": "Bootstrap",
+        "image": "Assets/Skills/bootstrap-logo.png",
+        "level":"Intermediate"
+    },
+
+    {
+        "id":6,
+        "name": "Node JS",
+        "image": "Assets/Skills/nodejs-logo.png",
+        "level":"Intermediate"
+    },
+
+    {
+        "id":7,
+        "name": "MongoDB",
+        "image": "Assets/Skills/mongodb-logo.svg",
+        "level":"Basics"
+    },
+
+
+    {
+        "id":8,
+        "name": "MySQL",
+        "image": "Assets/Skills/mysql-logo.png",
+        "level":"Intermediate"
+    },
+
+    {
+        "id":9,
+        "name": "Android Development",
+        "image": "Assets/Skills/android-logo.png",
+        "level":"Basics"
+    },
+
+    {
+        "id":10,
+        "name": "React Native",
+        "image": "Assets/Skills/react-native.png",
+        "level":"Basics"
+    },
+
+    {
+        "id":11,
+        "name": "Java",
+        "image": "Assets/Skills/java-logo.png",
+        "level":"Intermediate"
+    },
+
+
+    {
+        "id":12,
+        "name": "Python",
+        "image": "Assets/Skills/python-logo.png",
+        "level":"Basics"
+    }
+
+]
