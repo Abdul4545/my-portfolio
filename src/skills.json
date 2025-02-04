@@ -3,7 +3,7 @@
         "id":1,
         "name": "HTML",
         "image": "Assets/Skills/html-logo.png",
-        "level":"Intermediate"
+        "level":"Advance"
     },
 
     {
@@ -17,7 +17,7 @@
         "id":3,
         "name": "Javascript",
         "image": "Assets/Skills/js-logo.png",
-        "level":"Intermediate"
+        "level":"Advance"
     },
 
 
@@ -46,7 +46,7 @@
         "id":7,
         "name": "MongoDB",
         "image": "Assets/Skills/mongodb-logo.svg",
-        "level":"Basics"
+        "level":"Intermediate"
     },
 
 
@@ -83,7 +83,7 @@
         "id":12,
         "name": "Python",
         "image": "Assets/Skills/python-logo.png",
-        "level":"Basics"
+        "level":"Intermediate"
     }
 
 ]

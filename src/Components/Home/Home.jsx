@@ -7,11 +7,11 @@ function Home() {
     <>
     <div className="container-fluid-home">
       <div className="home-about">
-          <h1 className="display-1 radio-canada-big-h">Hi</h1>
+          <h1 className="display-1 radio-canada-big-h">Hi,</h1>
           <h2 className="display-2 radio-canada-big-h">I'm Abdul Moid</h2>
-          <h3 className="display-3 radio-canada-big-h">Fullstack Developer</h3>
+          <h3 className="display-3 radio-canada-big-h">Full Stack Web Developer</h3>
         </div>
-      <div className="image-container-home"></div>
+      {/* <div className="image-container-home"></div> */}
     </div>
     <Education />
     </>

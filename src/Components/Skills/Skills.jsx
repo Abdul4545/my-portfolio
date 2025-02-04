@@ -13,7 +13,7 @@ function Skills() {
               <div className="image-cotainer"><img src={skill.image} className="card-img-top image" alt={skill.title} /></div>
               <div className="card-body">
                 <h5 className="card-title">{skill.name}</h5>  
-                <h5 className="card-title">{skill.level}</h5>  
+                <h5 className="card-title">Level - {skill.level}</h5>  
               </div>
             </div>
           </div>

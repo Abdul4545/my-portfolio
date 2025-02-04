@@ -19,7 +19,7 @@ const Footer = () => {
         </a>
 
       </div>
-      <p>All Rights Reserved | Abdul Moid | 2024</p>
+      <p>All Rights Reserved | Abdul Moid | 2025</p>
     </div>
   );
 };
